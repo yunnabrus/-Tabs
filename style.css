@@ -1,0 +1,52 @@
+.us-back {
+  width: 920px;
+  height: 408px;
+  margin: 0 295px;
+  background: #ccc;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.us-back .about {
+  position: absolute;
+}
+.us-back .block {
+  display: none;
+}
+.us-back a {
+  text-decoration: none;
+  color: #222;
+}
+.us-back a:hover {
+  color: #000;
+}
+.us-back a:visited {
+  font-weight: bold;
+}
+.us-back .tabs {
+  background: #ededed;
+}
+.us-back .tabs p {
+  top: 16px;
+}
+.us-back p {
+  font-size: 44px;
+  top: 48px;
+  left: 70px;
+  color: #aaa;
+  line-height: 44px;
+}
+.us-back #one {
+  display: block;
+}
+.us-back div:target {
+  display: block;
+}
+.us-back div[id*=tab]:target {
+  display: block;
+}
+.us-back div[id*=tab]:target ~ #tab {
+  display: block;
+}
+.us-back div[id*=t]:target ~ #one {
+  display: none;
+}
